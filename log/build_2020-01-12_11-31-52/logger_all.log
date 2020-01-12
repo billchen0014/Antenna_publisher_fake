@@ -1,0 +1,104 @@
+[0.200s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'message_generator']
+[0.201s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f023cc5eb70>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['message_generator'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=3, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f023cc5eb70>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f023cc5eda0>)
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.248s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bill/Antenna_publisher_fake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/build) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/build) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/build) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/install) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/log) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/log) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/log) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/message_generator) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/message_generator) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/message_generator) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/message_generator) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/message_generator) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/message_generator) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/message_generator) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/message_generator) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bill/Antenna_publisher_fake/message_generator) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package '/home/bill/Antenna_publisher_fake/message_generator' with type 'ros.ament_python' and name 'message_generator'
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'message_generator' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'message_generator' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'message_generator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'message_generator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'message_generator' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'message_generator' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'message_generator' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'message_generator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'message_generator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'message_generator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bill/Antenna_publisher_fake/build/message_generator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bill/Antenna_publisher_fake/install/message_generator', 'merge_install': False, 'path': '/home/bill/Antenna_publisher_fake/message_generator', 'symlink_install': False, 'test_result_base': None}
+[0.277s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.279s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bill/Antenna_publisher_fake/message_generator' with build type 'ament_python'
+[0.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_generator', 'ament_prefix_path')
+[0.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/hook/ament_prefix_path.ps1'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/hook/ament_prefix_path.dsv'
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/hook/ament_prefix_path.sh'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.605s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bill/Antenna_publisher_fake/message_generator'
+[0.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.609s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bill/Antenna_publisher_fake/message_generator': PYTHONPATH=/home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/bill/Antenna_publisher_fake/build/message_generator build --build-base /home/bill/Antenna_publisher_fake/build/message_generator/build install --prefix /home/bill/Antenna_publisher_fake/install/message_generator --record /home/bill/Antenna_publisher_fake/build/message_generator/install.log --single-version-externally-managed
+[1.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bill/Antenna_publisher_fake/message_generator' returned '0': PYTHONPATH=/home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/bill/Antenna_publisher_fake/build/message_generator build --build-base /home/bill/Antenna_publisher_fake/build/message_generator/build install --prefix /home/bill/Antenna_publisher_fake/install/message_generator --record /home/bill/Antenna_publisher_fake/build/message_generator/install.log --single-version-externally-managed
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/bill/Antenna_publisher_fake/install/message_generator' for CMake module files
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/bill/Antenna_publisher_fake/install/message_generator' for CMake config files
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/bill/Antenna_publisher_fake/install/message_generator/lib'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/bill/Antenna_publisher_fake/install/message_generator/bin'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/bill/Antenna_publisher_fake/install/message_generator/lib/pkgconfig/message_generator.pc'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages'
+[1.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('message_generator', 'pythonpath')
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/hook/pythonpath.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/hook/pythonpath.dsv'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/hook/pythonpath.sh'
+[1.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message_generator)
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/package.ps1'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/package.dsv'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/package.sh'
+[1.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/package.bash'
+[1.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/bill/Antenna_publisher_fake/install/message_generator/share/message_generator/package.zsh'
+[1.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bill/Antenna_publisher_fake/install/message_generator/share/colcon-core/packages/message_generator)
+[1.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.300s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.323s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.327s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bill/Antenna_publisher_fake/install/local_setup.ps1'
+[1.329s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bill/Antenna_publisher_fake/install/_local_setup_util_ps1.py'
+[1.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bill/Antenna_publisher_fake/install/setup.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bill/Antenna_publisher_fake/install/local_setup.sh'
+[1.338s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bill/Antenna_publisher_fake/install/_local_setup_util_sh.py'
+[1.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bill/Antenna_publisher_fake/install/setup.sh'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bill/Antenna_publisher_fake/install/local_setup.bash'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bill/Antenna_publisher_fake/install/setup.bash'
+[1.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bill/Antenna_publisher_fake/install/local_setup.zsh'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bill/Antenna_publisher_fake/install/setup.zsh'

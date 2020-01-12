@@ -1,0 +1,3 @@
+[console_scripts]
+message_generator = message_generator.message_generator:main
+

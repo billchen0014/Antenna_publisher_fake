@@ -1,0 +1,22 @@
+[0.895s] running egg_info
+[0.895s] writing /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/PKG-INFO
+[0.896s] writing dependency_links to /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/dependency_links.txt
+[0.896s] writing entry points to /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/entry_points.txt
+[0.896s] writing requirements to /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/requires.txt
+[0.896s] writing top-level names to /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/top_level.txt
+[0.942s] reading manifest file '/home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/SOURCES.txt'
+[0.944s] writing manifest file '/home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/SOURCES.txt'
+[0.944s] running build
+[0.944s] running build_py
+[0.944s] copying message_generator/message_generator.py -> /home/bill/Antenna_publisher_fake/build/message_generator/build/lib/message_generator
+[0.944s] running install
+[0.945s] running install_lib
+[0.945s] copying /home/bill/Antenna_publisher_fake/build/message_generator/build/lib/message_generator/message_generator.py -> /home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages/message_generator
+[0.946s] byte-compiling /home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages/message_generator/message_generator.py to message_generator.cpython-36.pyc
+[0.947s] running install_data
+[0.947s] running install_egg_info
+[0.949s] removing '/home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages/message_generator-0.0.0-py3.6.egg-info' (and everything under it)
+[0.949s] Copying /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info to /home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages/message_generator-0.0.0-py3.6.egg-info
+[0.950s] running install_scripts
+[0.972s] Installing message_generator script to /home/bill/Antenna_publisher_fake/install/message_generator/lib/message_generator
+[0.973s] writing list of installed files to '/home/bill/Antenna_publisher_fake/build/message_generator/install.log'

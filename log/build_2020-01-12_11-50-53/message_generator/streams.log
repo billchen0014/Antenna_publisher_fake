@@ -1,0 +1,24 @@
+[1.192s] Invoking command in '/home/bill/Antenna_publisher_fake/message_generator': PYTHONPATH=/home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/bill/Antenna_publisher_fake/build/message_generator build --build-base /home/bill/Antenna_publisher_fake/build/message_generator/build install --prefix /home/bill/Antenna_publisher_fake/install/message_generator --record /home/bill/Antenna_publisher_fake/build/message_generator/install.log --single-version-externally-managed
+[1.771s] running egg_info
+[1.772s] writing /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/PKG-INFO
+[1.788s] writing dependency_links to /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/dependency_links.txt
+[1.788s] writing entry points to /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/entry_points.txt
+[1.788s] writing requirements to /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/requires.txt
+[1.788s] writing top-level names to /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/top_level.txt
+[1.950s] reading manifest file '/home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/SOURCES.txt'
+[1.963s] writing manifest file '/home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info/SOURCES.txt'
+[1.963s] running build
+[1.963s] running build_py
+[1.993s] copying message_generator/message_generator.py -> /home/bill/Antenna_publisher_fake/build/message_generator/build/lib/message_generator
+[1.994s] running install
+[1.994s] running install_lib
+[2.030s] copying /home/bill/Antenna_publisher_fake/build/message_generator/build/lib/message_generator/message_generator.py -> /home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages/message_generator
+[2.031s] byte-compiling /home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages/message_generator/message_generator.py to message_generator.cpython-36.pyc
+[2.032s] running install_data
+[2.037s] running install_egg_info
+[2.060s] removing '/home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages/message_generator-0.0.0-py3.6.egg-info' (and everything under it)
+[2.090s] Copying /home/bill/Antenna_publisher_fake/build/message_generator/message_generator.egg-info to /home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages/message_generator-0.0.0-py3.6.egg-info
+[2.109s] running install_scripts
+[2.182s] Installing message_generator script to /home/bill/Antenna_publisher_fake/install/message_generator/lib/message_generator
+[2.185s] writing list of installed files to '/home/bill/Antenna_publisher_fake/build/message_generator/install.log'
+[2.209s] Invoked command in '/home/bill/Antenna_publisher_fake/message_generator' returned '0': PYTHONPATH=/home/bill/Antenna_publisher_fake/install/message_generator/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/bill/Antenna_publisher_fake/build/message_generator build --build-base /home/bill/Antenna_publisher_fake/build/message_generator/build install --prefix /home/bill/Antenna_publisher_fake/install/message_generator --record /home/bill/Antenna_publisher_fake/build/message_generator/install.log --single-version-externally-managed
